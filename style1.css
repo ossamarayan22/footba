@@ -14,7 +14,7 @@ body {
 div .pr{
     font-family: serif;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 16px;
     width: 380px;
     box-sizing: border-box;
@@ -45,16 +45,12 @@ div .p1 {
     margin-left: 549px;
 }
 
-.groupA {
-    margin-left: 865px;
-}
-.groupB {
-    margin-left: 865px;
-}
-
 .groupC {
-    margin-top: -674px;
-    margin-right: -100px;
+    margin-top: -654px;
+    margin-left: 865px;
+}
+.groupD{
+    margin-left: 865px;
 }
 
 .groupA {
@@ -218,7 +214,7 @@ div .p1 {
         text-align: left;
     }
     div .pr{
-        font-size: 20px;
+        font-size: 18px;
         padding: 10px 8px;
         width: 100%;
         margin-left: 0px;
@@ -237,19 +233,16 @@ div .p1 {
         font-size: 10px;
         font-family: sans-serif;
         text-align: center;
-        margin-left: -10px;
+        margin-left: 0px;
+        margin-top: -20px;
 
     }
-    .groupA {
-        margin-left: 0px;
-    }
-    .groupB {
-        margin-left: 0px;
-    }
-    
     .groupC {
         margin-top: 0px;
-        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .groupD{
+        margin-left: 0px;
     }
     
     .groupA {
@@ -264,7 +257,7 @@ div .p1 {
     
     .groupA div p {
         display: table-cell;
-        padding: 6px;
+        padding: 10px;
         text-align: center;
         margin-top: -100px;
         color: rgb(255, 255, 255);
@@ -277,7 +270,8 @@ div .p1 {
         color: #ffffff;
         font-family: serif;
         font-weight: 900;
-        font-size: 18px;
+        font-size: 17px;
+        width: 20px;
     }
     
     .groupB {
@@ -305,7 +299,8 @@ div .p1 {
         color: #ffffff;
         font-family: serif;
         font-weight: 900;
-        font-size: 18px;
+        font-size: 17px;
+        width: 20px;
     }
     .groupC {
         display: table;
@@ -332,7 +327,8 @@ div .p1 {
         color: #ffffff;
         font-family: serif;
         font-weight: 900;
-        font-size: 18px;
+        font-size: 17px;
+        width: 20px;
     }
     
     .groupD {
@@ -360,7 +356,8 @@ div .p1 {
         color: #ffffff;
         font-family: serif;
         font-weight: 900;
-        font-size: 18px;
+        font-size: 17px;
+        width: 20px;
     }
     
     .tt_1 {

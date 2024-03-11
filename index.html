@@ -9,23 +9,27 @@
      <link rel="icon" href="image/bagrond/ii.jpg">
     <!-- css-->
     <link rel="stylesheet" href="style.css">
-    <style type="text/css">
-        @media screen and (max-width: 1024px){
-            #body{
-                background-color: black;
-            }
+    <!--javascript onclik-->
+    <script type="text/javascript">
+
+        function changeFunc() {
+            var selectBox = document.getElementById("FR").onclick = function () {
+                location.href = "index1.html";
+            };
         }
-    </style>
+       </script>
+    
 </head>
 <body class="body">
     <div>
-        <p class="pr">مرحبا بكم في دور المجموعات افرى</p>
+        <p class="pr">مرحبا بكم في دور المجموعات افرى    <br>    <select class="FR" id="FR" onchange="changeFunc();"><option value="AR" selected>العربية</option><option value="FR">Français</option></select></p>
     </div>
+    <br>
 <ossama class="groupA">
     <div class="EO">
-        <p class="tt_11"></p>
-        <p class="tt_11"></p>
-        <p class="tt_11"></p> 
+        <a class="tt_11"></a>
+        <a class="tt_11"></a>
+        <a class="tt_11"></a> 
         <a class="p1">المجموعة أ</a> 
     </div>
     <div class="EO">
@@ -63,9 +67,9 @@
 
 <ossama class="groupB">
     <div>
-        <p class="tt_11"></p>
-        <p class="tt_11"></p>
-        <p class="tt_11"></p> 
+        <a class="tt_11"></a>
+        <a class="tt_11"></a>
+        <a class="tt_11"></a> 
         <a class="p1">المجموعة ب</a> 
     </div>
     <div class="EO">
@@ -102,9 +106,9 @@
 <br>
 <ossama1 class="groupC">
         <div>
-        <p class="tt_11"></p>
-        <p class="tt_11"></p>
-        <p class="tt_11"></p> 
+        <a class="tt_11"></a>
+        <a class="tt_11"></a>
+        <a class="tt_11"></a> 
         <a class="p1">المجموعة ج</a> 
         </div>
         <div class="EO">
@@ -141,9 +145,9 @@
     <br>
 <ossama2 class="groupD">
     <div>
-        <p class="tt_11"></p>
-        <p class="tt_11"></p>
-        <p class="tt_11"></p> 
+        <a class="tt_11"></a>
+        <a class="tt_11"></a>
+        <a class="tt_11"></a> 
         <a class="p1">المجموعة د</a> 
     </div>
     <div class="EO">
