@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    background-image: url(image/bagrond/4.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: left;
+}
+
+div .pr{
+    font-family: serif;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px 16px;
+    width: 380px;
+    box-sizing: border-box;
+    margin-left: 570px;
+    background-color: #0f4b63;
+    color: #ffffff;
+    border: 0.5px solid #0e4156;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px 5px #04364A;
+    text-align: center;
+}
+
+div .p1 {
+    color: #ffffff;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 16px;
+    margin-left: 549px;
+}
+
+.groupA {
+    margin-left: 865px;
+}
+.groupB {
+    margin-left: 865px;
+}
+
+.groupC {
+    margin-top: -674px;
+    margin-right: -100px;
+}
+
+.groupA {
+    display: table;
+    width: 43%;
+    margin-right: 100px;
+    height: 100px;
+    
+}
+
+.groupA div {
+    display: table-row;
+    left: 100px;
+}
+
+.groupA div p {
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    margin-top: -100px;
+    color: blanchedalmond;
+    font-family: serif;
+    font-weight: 900;
+}
+.groupA div a {
+    display: table-cell;
+    padding: 18px;
+    text-align: center;
+    margin-top: -100px;
+    color: #ffffff;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.groupB {
+    display: table;
+    width: 43%;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.groupB div {
+    display: table-row;
+    left: 100px;
+}
+
+.groupB div p {
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    margin-top: -100px;
+    color: rgb(255, 255, 255);
+    font-family: serif;
+    font-weight: 900;
+}
+.groupB div a {
+    display: table-cell;
+    padding: 18px;
+    text-align: center;
+    margin-top: -100px;
+    color: #ffffff;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.groupC {
+    display: table;
+    width: 43%;
+    text-align: right;
+    margin-right: -100px;
+}
+
+.groupC div {
+    display: table-row;
+    left: 100px;
+}
+
+.groupC div p {
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    margin-top: -100px;
+    color: rgb(255, 255, 255);
+    font-family: serif;
+    font-weight: 900;
+}
+
+.groupC div a {
+    display: table-cell;
+    padding: 18px;
+    text-align: center;
+    margin-top: -100px;
+    color: #ffffff;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.groupD {
+    display: table;
+    width: 43%;
+    text-align: right;
+    margin-right: -100px;
+}
+
+.groupD div {
+    display: table-row;
+    left: 100px;
+}
+
+.groupD div p {
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    margin-top: -100px;
+    color: rgb(255, 255, 255);
+    font-family: serif;
+    font-weight: 900;
+}
+.groupD div a {
+    display: table-cell;
+    padding: 18px;
+    text-align: center;
+    margin-top: -100px;
+    color: #ffffff;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.tt_1 {
+    color: white;
+    margin-left: -10px;
+    background-color: #04364A;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.tt-1 {
+    color: white;
+    height: 25px;
+    margin-left: -10px;
+    background-color: #176B87;
+}
+
+.tt-2 {
+    color: white;
+    height: 30px;
+    margin-left: -10px;
+    background-color: #76ABAE;
+}
+
+@media(max-width:1024px){
+    .body{
+        background-color: black;
+        background-image: url(image/bagrond/4.jpg);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        text-align: left;
+    }
+    div .pr{
+        font-size: 20px;
+        padding: 10px 8px;
+        width: 100%;
+        margin-left: 0px;
+        box-sizing: border-box;
+        background-color: #0f4b63;
+        color: #ffffff;
+        border: 0.5px solid #0e4156;
+        border-radius: 2px;
+        box-shadow: 5px 5px 10px 5px #04364A;
+        text-align: center;
+    }
+    .groupA {
+        margin-left: 0px;
+    }
+    .groupB {
+        margin-left: 0px;
+    }
+    
+    .groupC {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    .groupA {
+        display: table;
+        width: 83%;
+        margin-left: 8.5%;
+        height: 100px;
+        
+    }
+    
+    .groupA div{
+        display: table-row;
+        left: 100px;
+    }
+    
+    .groupA div p {
+        display: table-cell;
+        padding: 10px;
+        text-align: center;
+        margin-top: -100px;
+        color: rgb(255, 255, 255);
+        font-family: serif;
+        font-weight: 900;
+    }
+    .groupA div a {
+        display: table-cell;
+        padding: 18px;
+        text-align: center;
+        margin-top: -100px;
+        color: #ffffff;
+        font-family: serif;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    
+    .groupB {
+        display: table;
+        width: 83%;
+        margin-left: 8.5%;
+        height: 100px;
+    }
+    
+    .groupB div {
+        display: table-row;
+        left: 100px;
+    }
+    
+    .groupB div p {
+        display: table-cell;
+        padding: 10px;
+        text-align: center;
+        margin-top: -100px;
+        color: rgb(255, 255, 255);
+        font-family: serif;
+        font-weight: 900;
+    }
+    .groupB div a {
+        display: table-cell;
+        padding: 18px;
+        text-align: center;
+        margin-top: -100px;
+        color: #ffffff;
+        font-family: serif;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .groupC {
+        display: table;
+        width: 83%;
+        margin-left: 8.5%;
+        height: 100px;
+    }
+    
+    .groupC div {
+        display: table-row;
+        left: 100px;
+    }
+    
+    .groupC div p {
+        display: table-cell;
+        padding: 10px;
+        text-align: center;
+        margin-top: -100px;
+        color: rgb(255, 255, 255);
+        font-family: serif;
+        font-weight: 900;
+    }
+    
+    .groupC div a {
+        display: table-cell;
+        padding: 18px;
+        text-align: center;
+        margin-top: -100px;
+        color: #ffffff;
+        font-family: serif;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    
+    .groupD {
+        display: table;
+        width: 83%;
+        margin-left: 8.5%;
+        height: 100px;
+    }
+    
+    .groupD div {
+        display: table-row;
+        left: 100px;
+    }
+    
+    .groupD div p {
+        display: table-cell;
+        padding: 10px;
+        text-align: center;
+        margin-top: -100px;
+        color: rgb(255, 255, 255);
+        font-family: serif;
+        font-weight: 900;
+    }
+    .groupD div a {
+        display: table-cell;
+        padding: 18px;
+        height: 20px;
+        text-align: center;
+        margin-top: -100px;
+        color: #ffffff;
+        font-family: serif;
+        font-weight: 900;
+        font-size: 20px;
+    }
+    
+    .tt_1 {
+        color: white;
+        margin-left: -10px;
+        background-color: #04364A;
+        height: 50px;
+        margin-top: 10px;
+    }
+    
+    .tt-1 {
+        color: white;
+        height: 25px;
+        margin-left: -10px;
+        background-color: #176B87;
+    }
+    
+    .tt-2 {
+        color: white;
+        height: 30px;
+        margin-left: -10px;
+        background-color: #76ABAE;
+    }
+    
+}
+
+
